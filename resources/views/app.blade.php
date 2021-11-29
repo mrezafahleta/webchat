@@ -18,6 +18,8 @@
     <body class="font-sans antialiased">
         @inertia
 
-       
+        @env ('local')
+            {{-- <script src="http://localhost:3000/js/bundle.js"></script> --}}
+        @endenv
     </body>
 </html>
